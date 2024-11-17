@@ -8,6 +8,11 @@ const app = express();
 const port = process.env.PORT || 5001;
 
 app.use(express.json());
+
+app.get("/", (req, res) => {
+    res.send("Welcome to the Job Recommendation Backend Service!");
+});
+
 app.use("/api/user-profile", require("./routes/userRoutes"));   // user routes to post user profile and recommend jobs
 app.use("/api", require("./routes/jobsRoutes"));                // jobs routes to post jobs
 
