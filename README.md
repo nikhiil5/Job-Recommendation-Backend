@@ -38,7 +38,8 @@ MongoDB Setup
 ## Example
 
 - User Profile Data (JSON)
-```{
+```
+{
   "name": "Jane Doe",
   "skills": ["Python", "Django", "REST APIs"],
   "experience_level": "Intermediate",
@@ -47,10 +48,12 @@ MongoDB Setup
     "locations": ["Remote", "New York"],
     "job_type": "Full-Time"
   }
-}```
+}
+```
 
 - Job Postings (JSON)
-```[
+```
+[
   {
     "job_id": 1,
     "job_title": "Software Engineer",
@@ -69,4 +72,5 @@ MongoDB Setup
     "job_type": "Full-Time",
     "experience_level": "Intermediate"
   }
-]```
+]
+```
