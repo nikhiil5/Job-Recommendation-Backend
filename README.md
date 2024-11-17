@@ -18,12 +18,12 @@ MongoDB Setup
 
 1. Clone the repository
 2. Install dependecies:
-    npm install
+    - npm install
 3. Set up .env file
-    PORT = 5000
-    CONNECTION_STRING = <your MongoDB connection string>
+    - `PORT = 5000`
+    - `CONNECTION_STRING = <your MongoDB connection string>`
 4. Run the application:
-    npm run start
+    - npm run start
 
 ## API Endpoints
 
