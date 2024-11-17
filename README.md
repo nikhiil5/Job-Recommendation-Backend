@@ -28,17 +28,17 @@ MongoDB Setup
 ## API Endpoints
 
 - User Profile
-    GET /api/user-profile
-    POST /api/user-profile
+    - GET /api/user-profile
+    - POST /api/user-profile
 - Jobs
-    GET /api/getJoblist
-    POST /api/postJob
-    POST /api/postJobs
+    - GET /api/getJoblist
+    - POST /api/postJob
+    - POST /api/postJobs
 
 ## Example
 
 - User Profile Data (JSON)
-{
+```{
   "name": "Jane Doe",
   "skills": ["Python", "Django", "REST APIs"],
   "experience_level": "Intermediate",
@@ -47,10 +47,10 @@ MongoDB Setup
     "locations": ["Remote", "New York"],
     "job_type": "Full-Time"
   }
-}
+}```
 
 - Job Postings (JSON)
-[
+```[
   {
     "job_id": 1,
     "job_title": "Software Engineer",
@@ -69,4 +69,4 @@ MongoDB Setup
     "job_type": "Full-Time",
     "experience_level": "Intermediate"
   }
-]
+]```
